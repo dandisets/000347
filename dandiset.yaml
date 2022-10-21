@@ -6,9 +6,34 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: two-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 26039386048
+  numberOfFiles: 9
+  numberOfSubjects: 3
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9545
+    name: Macaca nemestrina - Pig-tailed macaque
+    schemaKey: SpeciesType
+  variableMeasured:
+  - OpticalChannel
+  - PlaneSegmentation
+  - ImagingPlane
+  - TwoPhotonSeries
+  - ProcessingModule
 citation: Chatterjee, Soumya (2022) Macaque multiphoton imaging in visual cortex (preliminary
   data) (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000347/draft
 contributor:
